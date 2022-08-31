@@ -1,6 +1,10 @@
 # Página del proyecto WIMUMO
 
-Esta página reune información y enlaces sobre los repositorios del proyecto WIMUMO.
+Esta página reúne información y enlaces sobre los repositorios del proyecto WIMUMO.
+
+## Sitio
+
+El contenido de la página se encuentra en index.html, usa [mpv.css](https://andybrewer.github.io/mvp/) y se despliega automáticamaente como [github-page](https://docs.github.com/en/pages).
 
 ## Proyecto WIMUMO
 
