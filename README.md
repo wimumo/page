@@ -2,6 +2,8 @@
 
 ## Instaladores de la aplicación de escritorio
 
+<button name="button" onclick="https://github.com/wimumo/wimumo-desktop-app/releases/download/v1.0/wimumo-desktop-app-1.0.0-Setup_win64.exe">Windows</button>
+
  [Windows](https://github.com/wimumo/wimumo-desktop-app/releases/download/v1.0/wimumo-desktop-app-1.0.0-Setup_win64.exe)
  
  [MacOS](#)
