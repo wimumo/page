@@ -1,4 +1,6 @@
 remote_theme: pages-themes/midnight@v0.2.0
+title: WIMUMO
+description: Descargas y links a los repositorios
 description: ""
 show_downloads: false
 darkmode: false
