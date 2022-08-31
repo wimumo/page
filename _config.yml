@@ -1,4 +1,5 @@
-remote_theme: tuur29/pages-themes-cayman
+#remote_theme: tuur29/pages-themes-cayman
+theme: midnight
 description: ""
 show_downloads: false
 darkmode: false
