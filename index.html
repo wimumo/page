@@ -20,6 +20,7 @@
                 <li>Home</li>
                 <li><a href="#ejemplos">Ejemplos</a></li>
                 <li><a href="#proyecto">Proyecto</a></li>
+                <li><a href="#repositorios">Repositorios</a></li>
                 <li><a href="https://www.github.com/wimumo/" target="_blank">GitHub &nearr;</a></li>
             </ul>
         </nav>
@@ -38,27 +39,27 @@
     </header>
     <main>
         <section id="ejemplos">
-            
+
             <aside style="width:var(--width-content);">
-                
-                    <h2>Ejemplos rápidos</h2>
-                
+
+                <h2>Ejemplos rápidos</h2>
+
                 <p>
-                Sketches de Processing y Patches de PureData para comenzar a usar WIMUMO:
+                    Sketches de Processing y Patches de PureData para comenzar a usar WIMUMO:
                 </p>
                 <p>
-                Los sketchs se pueden usar instalando <a href="https://processing.org/">Processing</a> 
-                y para correr cualquiera de ellos es necesario instalar la librería oscP5. Los archivos o
-                    "patches" de <a href="https://puredata.info/docs/StartHere">Puredata</a> fueron probados 
-                    en la variante llamada <a href="https://www.purrdata.net/">Purr Data</a>. 
+                    Los sketchs se pueden usar instalando <a href="https://processing.org/">Processing</a>
+                    y para correr cualquiera de ellos es necesario instalar la librería oscP5. Los archivos o
+                    "patches" de <a href="https://puredata.info/docs/StartHere">Puredata</a> fueron probados
+                    en la variante llamada <a href="https://www.purrdata.net/">Purr Data</a>.
                 </p>
                 <ul>
                     <li>
                         <a href="https://github.com/wimumo/ejemplos/tree/main/Processing/ejemploBasicoCuadrados">
                             [ejemplo-basico-cuadrados.pd]
                         </a>:
-                    Un Sketch que recibe mensajes de dos canales y controla el tamaño de dos redondeles a partir del
-                    esfuerzo
+                        Un Sketch que recibe mensajes de dos canales y controla el tamaño de dos redondeles a partir del
+                        esfuerzo
                     </li>
                     <li>
                         <a href="https://github.com/wimumo/ejemplos/blob/main/Puredata/muestra-valores.pd">
@@ -66,66 +67,88 @@
                         </a>:
                         Un Patch que recibe mensajes e imprime los valores.
                     </li>
-                
-                <p> 
-                    Existen más ejemplos en el <a href="https://github.com/wimumo/ejemplos">repositorio</a>.
-                </p>
+
+                    <p>
+                        Existen más ejemplos en el <a href="https://github.com/wimumo/ejemplos">repositorio</a>.
+                    </p>
             </aside>
         </section>
 
         <section id="proyecto">
             <aside style="width:var(--width-content);">
-                
-                    <h2>Proyecto WIMUMO</h2>
-                
+
+                <h2>Proyecto WIMUMO</h2>
+
                 <p>
-                WIMUMO es un dispositivo capaz de adquirir señales
-                biopotenciales del cuerpo y transmitirlas a través de WiFi.
-                (su nombre proviene de "plataforma de adquisición WIreless MUltiMOdal") 
-            </p>
-            <p>
-                Específicamente, mide señales electromiográficas y electrocardiográficas (de los músculos y el corazón
-                respectivamente). Está diseñado como una plataforma de bajo costo, fácil de construir y fácil de usar.
-            </p>
-            <p>
-                Nació como un dispositivo para performances artísticas, midiendo las señales producidas por el cuerpo de
-                intérprete y transmitiéndolas mediante el protocolo OSC para producir imágenes y sonido.
-            </p>
-            <p>
-            El proyecto consiste en:
-        </p>    
-        <ul>
-            <li>
-                Una plataforma de hardware construida con componentes electrónicos de bajo costo como el ESP32, el ahora
-                casi antiguo amplificador LM324 y suministros textiles comunes.
-            </li>
-            <li>
-                Gabinetes para impresión 3D y accesorios.  <a href="https://github.com/wimumo/gabinetes/"> Repositorio de gabinetes</a>.
-            </li>
-            </li>
-            <li>
-                Firmware programado en el IDE de Arduino utilizando bibliotecas ESP32 de alto y bajo nivel para
-                proporcionar una conexión a Internet simplificada, medición de señal, procesamiento y entrega a
-                cualquier IP local y dirección de puerto utilizando el protocolo OSC. 
-                <a href="https://github.com/wimumo/wimumo-lite-firmware">Repositorio del Firmware de
-                Arduino</a>.
-            </li>
-            <li>
-                Software programado en Electron para contar con una aplicación de escritorio opcional que permite
-                observar
-                las señales medidas, y utilizar algunas características básicas de WIMUMO. 
-                <a href="https://github.com/wimumo/wimumo-desktop-app/">Repositorio de la app de
-                escritorio</a>.
-            </li>
-            </ul>
-           
+                    WIMUMO es un dispositivo capaz de adquirir señales
+                    biopotenciales del cuerpo y transmitirlas a través de una conexión WiFi.
+                    (su nombre proviene de "plataforma de adquisición WIreless MUltiMOdal")
+                </p>
+                <p>
+                    Específicamente, mide señales electromiográficas y electrocardiográficas (de los músculos y el
+                    corazón
+                    respectivamente). Está diseñado como una plataforma de bajo costo, fácil de construir y fácil de
+                    usar.
+                </p>
+                <p>
+                    Nació como un dispositivo para performances artísticas, midiendo las señales producidas por el
+                    cuerpo del
+                    intérprete y transmitiéndolas mediante el protocolo OSC para producir imágenes y sonido.
+                </p>
+
+                <p align="center">
+                <iframe width="400" height="225" src="https://www.youtube.com/embed/pGY5zdzPMx8" title="Proyecto WIMUMO" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </p>
+
+                <p align="center">
+                    Más información sobre este proyecto en <a href="https://gibic.ar/wimumo">gibic.ar/wimumo</a>.
+                </p>
+
+            </aside>
+        </section>
+        <section id="repositorios">
+            <aside style="width:var(--width-content);">
+
+                <h2>Repositorios</h2>
+
+                <p>El proyecto consta de:</p>
+                <ul>
+                    <li>
+                        Una plataforma de hardware construida con componentes electrónicos de bajo costo como el
+                        ESP32, el ahora
+                        casi antiguo amplificador LM324 y suministros textiles comunes. [repositorio aún no publicado].
+                    </li>
+                    <li>
+                        Gabinetes para impresión 3D y accesorios. <a href="https://github.com/wimumo/gabinetes/">
+                            Repositorio de gabinetes</a>.
+                    </li>
+                    </li>
+                    <li>
+                        Firmware programado en el IDE de Arduino utilizando bibliotecas ESP32 de alto y bajo
+                        nivel para
+                        proporcionar una conexión a Internet simplificada, medición de señal, procesamiento y
+                        entrega a
+                        cualquier IP local y dirección de puerto utilizando el protocolo OSC.
+                        <a href="https://github.com/wimumo/wimumo-lite-firmware">Repositorio del Firmware de
+                            Arduino</a>.
+                    </li>
+                    <li>
+                        Software programado en Electron para contar con una aplicación de escritorio opcional
+                        que permite
+                        observar
+                        las señales medidas, y utilizar algunas características básicas de WIMUMO.
+                        <a href="https://github.com/wimumo/wimumo-desktop-app/">Repositorio de la app de
+                            escritorio</a>.
+                    </li>
+                </ul>
+
             </aside>
         </section>
     </main>
     <footer>
         <hr>
         <p>
-            <a href="http://gibic.ar/">GIBIC</a>, 2021.<br>Grupo de Instrumentación Biomédica, Industrial y Científica.
+            <a href="http://gibic.ar/">GIBIC</a>, 2022.<br>Grupo de Instrumentación Biomédica, Industrial y Científica.
             <br>Instituto <b>LEICI</b> (UNLP-CONICET-CIC).
         </p>
     </footer>
