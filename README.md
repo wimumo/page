@@ -14,7 +14,7 @@ Específicamente, mide señales electromiográficas y electrocardiográficas (de
 
 Nació como un dispositivo para performances artísticas, midiendo las señales producidas por el cuerpo de un intérprete y transmitiéndolas mediante el protocolo OSC para producir imágenes y sonido.
 
-Más información en [gibic.ar/wimumo](https://gibic.ar/wimumo)
+Más información en [gibic.ar/wimumo](https://gibic.ing.unlp.edu.ar/wimumo)
  
 
 
